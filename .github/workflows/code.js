@@ -1,7 +1,8 @@
 const axios = require("axios");
 
 const msgs = [
-    "hello cau"
+    "hello cau",
+    "chao cau"
 ]
 
 // ngày bắt đầu thực hiện gửi tin nhắn
