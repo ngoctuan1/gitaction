@@ -18,8 +18,8 @@ function diffDate() {
 
 const sendMessage = async () => {
     const i = diffDate();
-    let url = "https://mighty-reaches-66596.herokuapp.com/"
-    const { data } = await axios.get(url, { params: { uid: "100011341945915", msg: msgs[i]} });
+    let url = "https://mighty-reaches-66596.herokuapp.com/api/send"
+    const { data } = await axios.get(url, { params: { uid: 100011341945915, msg: msgs[0]} });
 };
 
 sendMessage();
