@@ -2,7 +2,7 @@
   "name": "gitaction",
   "version": "1.0.0",
   "description": "The project description",
-  "main": "index.js",
+  "main": "code.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
