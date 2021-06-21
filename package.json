@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ngoctuan1/gitaction/issues"
   },
-  "homepage": "https://github.com/ngoctuan1/gitaction#readme"
+  "homepage": "https://github.com/ngoctuan1/gitaction#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
 }
