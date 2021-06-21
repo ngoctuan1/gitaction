@@ -24,4 +24,4 @@ jobs:
           node-version: 12.16.1
       - run: npm ci
       - name: Send message
-        run: npm run start
+        run: npm run send
